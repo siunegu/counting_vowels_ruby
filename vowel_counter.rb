@@ -11,7 +11,7 @@ vowels = ["a", "e", "i", "o", "u"]
 vowel_count = []
 
 
-str = "something he said"
+str = gets.chomp.to_s
 str.each_char do |w|
  if vowels.include?(w) 
  	vowel_count << w
